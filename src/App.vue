@@ -24,4 +24,14 @@ export default {
   max-width: 500px;
   margin: auto;
 }
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background: seagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 </style>
