@@ -1,7 +1,12 @@
 <template>
   <div class="container">
-    <Header />
-    <button>Add Task</button>
+    <Header title="Vue App" action="Get Started" color="lightblue" bgColor="darkblue"/>
+   <!-- <button>Add Task</button>  -->
+  </div>
+
+  <div class="container">
+    <Header title="Todo List" action="Add Task" />
+    <!--<button>Add Task</button> -->
   </div>
 </template>
 
@@ -18,7 +23,6 @@ export default {
 <style>
 #app {
   text-align: center;
-  color: yellowgreen;
   margin-top: 60px;
 }
 
@@ -27,15 +31,5 @@ export default {
   padding: 30px;
   max-width: 500px;
   margin: auto;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 15px;
-  background: seagreen;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 </style>
