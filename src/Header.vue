@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1 :style="{ color: color }" >{{ title }}</h1>
-    <button :style="{ background: bgColor }">{{  action  }}</button>
+    <button @click="handleClick()" :style="{ background: bgColor }">{{  action  }}</button>
   </header>
 </template>
 
@@ -13,6 +13,11 @@ export default {
     action: String,
     color: String,
     bgColor: String
+  },
+  methods: {
+    handleClick() {
+      console.log("button clicked")
+    }
   }
 };
 </script>
